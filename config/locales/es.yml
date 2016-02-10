@@ -235,7 +235,7 @@ es:
       spree/prototype:
         one: Prototipo
         other: Propotipos
-      spree/refund_reason: Causas de reembolso
+      spree/refund_reason: Causas de Reembolso
       spree/reimbursement:
       spree/reimbursement_type:
       spree/return_authorization:
@@ -1153,7 +1153,7 @@ es:
     shipped: Enviado
     shipping: Envío
     shipping_address: Dirección de envío
-    shipping_categories: Categorías de envío
+    shipping_categories: Categorías deEenvío
     shipping_category: Categoría de Envío
     shipping_flat_rate_per_item: Tarifa plana por artículo empaquetado
     shipping_flat_rate_per_order: Tarifa Plana
@@ -1244,12 +1244,12 @@ es:
     successfully_updated: "%{resource} ha sido actualizado con éxito"
     summary: Resumen
     tax: Tasa
-    tax_categories: Categorías fiscales
+    tax_categories: Categorías Fiscales
     tax_category: Categoría Fiscal
     tax_code: Código Fiscal
     tax_included: Impuestos incluídos
     tax_rate_amount_explanation: Las tasas de impuestos son numeros decimales para ayudar en los cálculos, (p. ej. si la tasa de impuesto es del 5%, introducir 0.05)
-    tax_rates: Tasas de impuestos
+    tax_rates: Tasas de Impuestos
     taxon: Taxon
     taxon_edit: Editar Taxon
     taxon_placeholder: Añadir Taxon
