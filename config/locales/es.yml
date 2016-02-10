@@ -381,17 +381,17 @@ es:
     admin:
       tab:
         configuration: Configuración
-        option_types:
+        option_types: Tipos de Opcion
         orders: Pedidos
         overview: Visión general
         products: Productos
         promotions: Promociones
-        promotion_categories:
-        properties:
-        prototypes:
+        promotion_categories: Categorías de Promociones
+        properties: Propiedades
+        prototypes: Prototipos
         reports: Informes
-        taxonomies:
-        taxons:
+        taxonomies: Clasificaciones
+        taxons: Clasificadores
         users: Usuarios
       user:
         account: Cuenta
