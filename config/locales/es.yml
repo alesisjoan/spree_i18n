@@ -243,8 +243,8 @@ es:
         other: Autorizaciones para devolución
       spree/return_authorization_reason:
       spree/role:
-        one: Función
-        other: Funciones
+        one: Perfil
+        other: Perfiles
       spree/shipment:
         one: Envío
         other: Envíos
@@ -1098,6 +1098,7 @@ es:
     rma_number: Número RMA
     rma_value: Valor RMA
     roles: Perfiles
+    role_id: Perfil
     rules: Reglas
     safe:
     sales_total: Total de ventas
