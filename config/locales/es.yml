@@ -72,7 +72,7 @@ es:
         zipcode: Código postal dirección envío
       spree/payment:
         amount: Cuantía
-      spree/payment_method:
+      spree/payment_method: Método de Pago
         name: Nombre
       spree/product:
         available_on: Disponible
@@ -94,7 +94,7 @@ es:
         path: Ruta
         starts_at: Empieza en
         usage_limit: Limite de Uso
-      spree/promotion_category:
+      spree/promotion_category: Categoría de Promoción
         name: Nombre
       spree/property:
         name: Nombre
@@ -117,7 +117,7 @@ es:
         updated: Actualizado
         user: Usuario
       spree/store:
-        mail_from_address:
+        mail_from_address: Dirección de E-mail Desde
         meta_description: Meta Descripción
         meta_keywords: Palabras Clave
         name: Nombre
@@ -230,14 +230,14 @@ es:
       spree/promotion:
         one: Promoción
         other: Promociones
-      spree/promotion_category:
+      spree/promotion_category: Categoría de Promoción
       spree/property:
         one: Propiedad
         other: Propiedades
       spree/prototype:
         one: Prototipo
         other: Propotipos
-      spree/refund_reason:
+      spree/refund_reason: Causas de reembolso
       spree/reimbursement:
       spree/reimbursement_type:
       spree/return_authorization:
@@ -253,14 +253,14 @@ es:
       spree/shipping_category:
         one: Categoría de envío
         other: Categorías de envío
-      spree/shipping_method:
+      spree/shipping_method: Método de Envío
       spree/state:
         one: Provincia
         other: Provincias
       spree/state_change:
       spree/stock_location:
       spree/stock_movement:
-      spree/stock_transfer:
+      spree/stock_transfer: Transferencia de Stock
       spree/tax_category:
         one: Categoría fiscal
         other: Categorías fiscales
@@ -424,7 +424,7 @@ es:
     analytics_desc_list_2: Se necesita solamente una cuenta libre de Spree para activarlo.
     analytics_desc_list_3: Absolutamente ningún código para instalar.
     analytics_desc_list_4: Es completamente gratuito!
-    analytics_trackers: Analytics Trackers
+    analytics_trackers: Rastreadores de Analíticos
     and: y
     approve: aprobar
     approved_at: Aprobado en
@@ -442,12 +442,13 @@ es:
     back: Volver
     back_end: Parte interna
     back_to_payment:
-    back_to_resource_list:
-    back_to_rma_reason_list:
+    back_to_resource_list: Volver a la lista
+    back_to_rma_reason_list: Volver a lista de causas RMA
     back_to_store: Volver a la Tienda
+    back_to_stock_location_list: Volver a la lista de localizaciones de Stock
     back_to_users_list: Volver a Listado de Usuarios
     backorderable: Devuelto
-    backorderable_default:
+    backorderable_default: Pedidos retrasables por defecto
     backordered:
     backorders_allowed: Permitida la Devolucion
     balance_due: Saldo adeudado
@@ -648,6 +649,7 @@ es:
     failed_payment_attempts:
     filename: Nombre de Fichero
     fill_in_customer_info: Por favor rellena información del cliente
+    filter: Filtrar
     filter_results: Filtrar resultados
     finalize: Finalizar
     finalized: Ha finalizado
@@ -668,7 +670,7 @@ es:
     general: General
     general_settings: Preferencias en general
     google_analytics: Google Analytics
-    google_analytics_id: ID Analytics
+    google_analytics_id: ID de Google Analytics
     guest_checkout: Comprobación Invitado
     guest_user_account: Comprobación como invitado
     has_no_shipped_units: No tiene unidades enviadas
@@ -734,6 +736,7 @@ es:
     list: Lista
     loading: Cargando
     locale_changed: Idioma cambiado
+    locales_displayed_on_frontend_select_box: Locales visualizados en el menú de selección
     location: Localización
     lock: Bloquear
     log_entries: "Log Entries"
@@ -785,13 +788,14 @@ es:
     new_payment_method: Nueva forma de pago
     new_product: Nuevo producto
     new_promotion: Nueva promoción
-    new_promotion_category:
+    new_promotion_category: Nueva Categoría de Promoción
     new_property: Nueva propiedad
     new_prototype: Nuevo prototipo
     new_refund: Nuevo reembolso
-    new_refund_reason:
+    new_refund_reason: Nuevo causa de reembolso
     new_return_authorization: Nueva autorización de devolución
-    new_rma_reason: Nueva razón RMA
+    new_rma_reason: Nueva causa RMA
+    new_role: Nuevo perfil
     new_shipment_at_location:
     new_shipping_category: Nueva categoría de envío
     new_shipping_method: Nueva forma de envío
@@ -1014,7 +1018,7 @@ es:
     promotion_uses:
     promotionable:
     promotions: Promociones
-    propagate_all_variants:
+    propagate_all_variants: Propagar todas las variables
     properties: Propiedades
     property: Propiedad
     prototype: Prototipo
@@ -1027,12 +1031,13 @@ es:
     quantity_shipped: Cantidad enviada
     quick_search: Búsqueda rápida
     rate: Tarifa
-    reason: Razón
+    reason: causa
     receive: recibir
     receive_stock: Recibir Stock
     received: Recibido
     reception_status: Estado de entrega
     reference: Referencia
+    reference_cont: Contiene referencia
     refund: Devolución
     refund_amount_must_be_greater_than_zero: La cantidad a reembolsar debe ser mayor que zero
     refund_reasons: Causas de la devolución
@@ -1055,9 +1060,9 @@ es:
         total_refunded:
     reimbursement_perform_failed:
     reimbursement_status:
-    reimbursement_type:
+    reimbursement_type: Tipo de reembolso
     reimbursement_type_override:
-    reimbursement_types:
+    reimbursement_types: Tipos de Reembolso
     reimbursements:
     reject:
     rejected:
@@ -1073,7 +1078,8 @@ es:
     resumed: Reanudado
     return: Volver
     return_authorization: Autorización para devolución
-    return_authorization_reasons:
+    return_authorization_reason: Causa de Autorización
+    return_authorization_reasons: Causas de Autorización para devolución
     return_authorization_updated: Autorización para devolución actualizada
     return_authorizations: Autorizaciones para devolución
     return_item_inventory_unit_ineligible:
@@ -1093,7 +1099,7 @@ es:
     rma_credit: Crédito RMA
     rma_number: Número RMA
     rma_value: Valor RMA
-    roles: Funciones
+    roles: Perfiles
     rules: Reglas
     safe:
     sales_total: Total de ventas
@@ -1101,7 +1107,7 @@ es:
     sales_totals: Totales de ventas
     save_and_continue: Guardar y continuar
     save_my_address: Recordar esta dirección
-    say_no: false
+    say_no: No
     say_yes: Si
     scope: Alcance
     search: Buscar
@@ -1176,7 +1182,7 @@ es:
     ssl:
       change_protocol:
     start: Empezar
-    state: Provincia
+    state: Estado
     state_based: Estado basado
     state_machine_states:
       accepted:
@@ -1258,7 +1264,7 @@ es:
     taxonomy_edit: Editar Taxonomía
     taxonomy_tree_error: El cambio solicitado no ha sido aceptado y el arbol ha sido devuelto a su estado anterior, por favor intentalo de nuevo
     taxonomy_tree_instruction: "*click derecho en una rama del arbol para acceder al menu para añadir, borrar u ordenar un hijo"
-    taxons: Taxons
+    taxons: Clasificadores
     test: Test
     test_mailer:
       test_email:
@@ -1336,3 +1342,4 @@ es:
     zipcode: Código Postal
     zone: Zona
     zones: Zonas
+    
