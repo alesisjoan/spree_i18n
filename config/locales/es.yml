@@ -73,7 +73,6 @@ es:
       spree/payment:
         amount: Cuantía
       spree/payment_method: Método de Pago
-        name: Nombre
       spree/product:
         available_on: Disponible
         cost_currency: Moneda de costo
@@ -95,7 +94,6 @@ es:
         starts_at: Empieza en
         usage_limit: Limite de Uso
       spree/promotion_category: Categoría de Promoción
-        name: Nombre
       spree/property:
         name: Nombre
         presentation: Presentación
