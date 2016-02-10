@@ -379,7 +379,7 @@ es:
     admin:
       tab:
         configuration: Configuración
-        option_types: Tipos de Opcion
+        option_types: Tipos de Opción
         orders: Pedidos
         overview: Visión general
         products: Productos
@@ -1153,7 +1153,7 @@ es:
     shipped: Enviado
     shipping: Envío
     shipping_address: Dirección de envío
-    shipping_categories: Categorías deEenvío
+    shipping_categories: Categorías de envío
     shipping_category: Categoría de Envío
     shipping_flat_rate_per_item: Tarifa plana por artículo empaquetado
     shipping_flat_rate_per_order: Tarifa Plana
