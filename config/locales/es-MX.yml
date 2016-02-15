@@ -1165,6 +1165,8 @@ es-MX:
     show_only_complete_orders: Mostrar sólo los pedidos completados
     show_only_considered_risky:
     show_rate_in_label: Mostrar tarifa en etiqueta
+    sign_in_through_one_of_these_services: Inicie sesión a través de estos servicios
+    sign_in_with: Iniciar sesión con
     sku: Código
     skus:
     slug:
@@ -1329,6 +1331,7 @@ es-MX:
     width: Ancho
     year: Año
     you_have_no_orders_yet: Aún no tiene ningún pedido.
+    you_have_signed_in_with_these_services: Ha iniciado sesión con estos servicios
     your_cart_is_empty: Su carrito está vacío
     your_order_is_empty_add_product: Su orden está vacía, por favor busque y agregue un producto
     zip: Código postal
