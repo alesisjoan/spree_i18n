@@ -303,6 +303,11 @@ es:
     oauth_callbacks:
       failure: No se te pudo autorizar desde %{kind} debido a %{reason}.
       success: Autorizada satisfactoriamente desde la cuenta %{kind}.
+    omniauth_callbacks:
+      failure: No pudo autorizarse desde %{kind} debido a %{reason}.
+      success: Autorizado desde la cuenta de %{kind}
+    sessions:
+      signed_in: Ha iniciado sesión
     unlocks:
       send_instructions: Recibirás un email con instrucciones sobre como desbloquear la cuenta en breves minutos.
       unlocked: Tu cuenta fue desbloqueada satisfactoriamente. Ya estás registrado.
@@ -352,6 +357,7 @@ es:
     active: Activa
     add: Añadir
     add_action_of_type: Añadir acción del tipo
+    add_another_service: Añadir otro servicio
     add_country: Añadir País
     add_coupon_code:
     add_new_header: Añadir nueva cabecera
@@ -431,6 +437,8 @@ es:
     are_you_sure_delete: "¿Estás seguro de que quieres borrar este registro?"
     associated_adjustment_closed: El ajuste asociado está cerrado y no será recalculado. ¿Quieres abrirlo?
     at_symbol: '@'
+    authentications:
+      destroy: Servicio de Inicio de Sesión eliminado
     authorization_failure: Fallo en la autorización
     authorized:
     auto_capture:
@@ -439,6 +447,7 @@ es:
     avs_response:
     back: Volver
     back_end: Parte interna
+    back_to_authentication_methods_list: Volver a Redes Sociales para Inicio de Sesión
     back_to_payment:
     back_to_resource_list: Volver a la lista
     back_to_rma_reason_list: Volver a lista de causas RMA
@@ -588,6 +597,7 @@ es:
     display_currency: Moneda a mostrar
     doesnt_track_inventory:
     edit: Editar
+    edit_social_method: Editar Servicio de Inicio de Sesión
     editing_resource: Editando Recurso
     editing_rma_reason:
     editing_user: Editando Usuario
@@ -686,7 +696,7 @@ es:
     images: Imágenes
     implement_eligible_for_return:
     implement_requires_manual_intervention:
-    inactive:
+    inactive: Inactiva
     incl:
     included_in_price: Incluido en el precio
     included_price_validation: No puede ser seleccionado a menos que establezcas una Zona de Tasa por defecto
@@ -741,10 +751,10 @@ es:
     logged_in_as: Identificado como
     logged_in_succesfully: Conectado con éxito
     logged_out: Se ha cerrado la sesión.
-    login: Validación
+    login: Iniciar sesión
     login_as_existing: Validarse como cliente existente
     login_failed: No se ha podido iniciar la sesión, error de autenticación.
-    login_name: Validación
+    login_name: Iniciar sesión
     logout: Cerrar sesión
     logs: "Logs"
     look_for_similar_items: Buscar artículos similares
@@ -797,6 +807,7 @@ es:
     new_shipment_at_location:
     new_shipping_category: Nueva categoría de envío
     new_shipping_method: Nueva forma de envío
+    new_social_method: Nuevo servicio de Inicio de Sesión
     new_state: Nueva provincia
     new_stock_location: Nueva localización de stock
     new_stock_movement: Nuevo movimiento de stock
@@ -838,6 +849,7 @@ es:
       variant_not_deleted: La Variante no pudo ser borrada
     num_orders: "# Pedidos"
     on_hand: Disponible
+    one_more_step: Un paso más
     open: Abrir
     open_all_adjustments: Abrir todos los ajustes
     option_type: Tipo de opción
@@ -1066,6 +1078,7 @@ es:
     rejected:
     remember_me: Recuérdame
     remove: Quitar
+    remove_authentication_option_confirmation: ¿Está seguro de borrar ese método de inicio de sesión?
     rename: Renombrar
     report:
     reports: Informes
@@ -1177,6 +1190,8 @@ es:
     skus:
     slug:
     source: Fuente
+    social_authentication_methods: Redes Sociales para Inicio de Sesión
+    social_provider: Red social
     special_instructions: Instrucciones especiales
     split: Dividir
     spree_gateway_error_flash_for_checkout: Hubo un problema con tu información de pago. Por favor revisa tu información e intentado de nuevo

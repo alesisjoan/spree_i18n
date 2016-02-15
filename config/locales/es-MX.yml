@@ -303,6 +303,11 @@ es-MX:
     oauth_callbacks:
       failure: No pudo autorizarse desde %{kind} debido a %{reason}.
       success: Autorizado desde la cuenta de %{kind}
+    omniauth_callbacks:
+      failure: No pudo autorizarse desde %{kind} debido a %{reason}.
+      success: Autorizado desde la cuenta de %{kind}
+    sessions:
+      signed_in: Ha iniciado sesión
     unlocks:
       send_instructions: En breve recibirá  un email con instrucciones acerca de como desbloquear su cuenta.
       unlocked: Su cuenta fue desbloqueada correctamente. Ahora está conectado
@@ -352,6 +357,7 @@ es-MX:
     active: Activo
     add: Añadir
     add_action_of_type: Añadir tipo de acción
+    add_another_service: Añadir otro servicio
     add_country: Añadir País
     add_coupon_code:
     add_new_header: Añadir nuevo encabezado
@@ -431,6 +437,8 @@ es-MX:
     are_you_sure_delete: "¿Está seguro de que quiere eliminar esta entrada?"
     associated_adjustment_closed: El ajuste relacionado está cerrado, y no será recalculado. ¿Deseas abrirlo?
     at_symbol: '@'
+    authentications:
+      destroy: Servicio de Inicio de Sesión eliminado
     authorization_failure: Fallo de autorización
     authorized:
     auto_capture:
@@ -439,6 +447,7 @@ es-MX:
     avs_response:
     back: Atrás
     back_end: Parte Intera
+    back_to_authentication_methods_list: Volver a Redes Sociales para Inicio de Sesión
     back_to_payment:
     back_to_resource_list:
     back_to_rma_reason_list:
@@ -587,6 +596,7 @@ es-MX:
     display_currency: Display currency
     doesnt_track_inventory:
     edit: Editar
+    edit_social_method: Editar Servicio de Inicio de Sesión
     editing_resource:
     editing_rma_reason:
     editing_user: Editando usuario
@@ -684,7 +694,7 @@ es-MX:
     images: Imágenes
     implement_eligible_for_return:
     implement_requires_manual_intervention:
-    inactive:
+    inactive: Inactiva
     incl:
     included_in_price: Incluido en el precio
     included_price_validation: No puede ser seleccionado a menos que hayas elegido una zona de impuestos por defecto
@@ -793,6 +803,7 @@ es-MX:
     new_shipment_at_location:
     new_shipping_category: Nueva categoría de envío
     new_shipping_method: Nueva forma de envío
+    new_social_method: Nuevo servicio de Inicio de Sesión
     new_state: Nuevo estado
     new_stock_location: Nueva locación de existencias
     new_stock_movement: Nuevo Movimiento de inventario
@@ -834,6 +845,7 @@ es-MX:
       variant_not_deleted: La variante no ha podido eliminarse
     num_orders:
     on_hand: Disponible
+    one_more_step: Un paso más
     open: Abrir
     open_all_adjustments: Abrir todos los ajustes
     option_type: Tipo de opción
@@ -1062,6 +1074,7 @@ es-MX:
     rejected:
     remember_me: Recuerdame
     remove: Eliminar
+    remove_authentication_option_confirmation: ¿Está seguro de borrar ese método de inicio de sesión?
     rename: Renombrar
     report:
     reports: Informes
@@ -1171,6 +1184,8 @@ es-MX:
     skus:
     slug:
     source: Origen
+    social_authentication_methods: Redes Sociales para Inicio de Sesión
+    social_provider: Red social
     special_instructions: Instrucciones especiales
     split: Dividir
     spree_gateway_error_flash_for_checkout: hubo un problema con su información de pago. Por favor, revísela e inténtelo de nuevo.
