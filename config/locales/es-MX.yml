@@ -1166,7 +1166,7 @@ es-MX:
     show_only_considered_risky:
     show_rate_in_label: Mostrar tarifa en etiqueta
     sign_in_through_one_of_these_services: Inicie sesión a través de estos servicios
-    sign_in_with: Iniciar sesión con
+    sign_in_with: Iniciar sesión con %{provider}
     sku: Código
     skus:
     slug:
